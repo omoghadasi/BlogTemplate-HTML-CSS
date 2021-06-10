@@ -1,0 +1,317 @@
+@font-face {
+  font-family: "sans";
+  src: url("fonts/IRANSans\(FaNum\).ttf");
+}
+@font-face {
+  font-family: "sans-bold";
+  src: url("fonts/IRANSans\(FaNum\)_Bold.ttf");
+}
+@font-face {
+  font-family: "sans-light";
+  src: url("fonts/IRANSans\(FaNum\)_Light.ttf");
+}
+* {
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:hover,
+a:focus,
+a:visited {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  color: white;
+  text-decoration: none;
+}
+body {
+  font-family: "sans", tahoma;
+  background-color: #e9eaed;
+}
+h1,
+h2,
+h3 {
+  font-family: "sans-bold", tahoma;
+}
+h4,
+h5,
+h6 {
+  font-family: "sans", tahoma;
+}
+p,
+a {
+  font-family: "sans-light", tahoma;
+  margin: 0;
+}
+header {
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+header .row {
+  height: 60px;
+}
+header .logo {
+  max-height: 60px;
+}
+header nav ul li {
+  padding-left: 5px;
+  display: inline-block;
+}
+header nav ul li i {
+  padding-left: 3px;
+}
+header nav ul li:nth-child(1) i {
+  color: #ffc107;
+}
+header nav ul li:nth-child(2) i {
+  color: #f44336;
+}
+header nav ul li:nth-child(3) i {
+  color: #03a9f4;
+}
+header nav ul li:hover p {
+  cursor: pointer;
+  font-weight: 600;
+}
+header .mymore {
+  width: 40px;
+  height: 40px;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+header .mymore i {
+  padding-top: 5px;
+}
+header .mymore:hover {
+  background-color: #eeeeee;
+}
+header .input-group {
+  position: relative;
+}
+header .input-group input {
+  background-color: #eef0f3;
+  border-radius: 50px !important;
+  border: none;
+  text-align: center;
+}
+header .input-group input:focus {
+  background-color: #eef0f3;
+}
+header .input-group .input-group-prepend .input-group-text {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  margin-right: -50px;
+  margin-top: 5px;
+  color: #a8b6c0;
+}
+header .myplus {
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #e91e63;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+header .myplus i {
+  padding-top: 5px;
+  color: white;
+}
+header .beforlogin .mybtn {
+  border-radius: 50px;
+  background-color: #c8d1d8;
+  color: white;
+  padding: 7px 25px;
+}
+header .beforlogin .mybtn:hover {
+  background-color: #e91e63;
+}
+header .beforlogin .mybtn i {
+  font-size: 1.1rem;
+  margin: 5px 5px;
+}
+header .afterlogin {
+  width: 55px;
+  height: 55px;
+}
+.main-megamenu {
+  z-index: 1000;
+  display: none;
+}
+#myslider .card {
+  text-align: right;
+  margin: 3px;
+  overflow: hidden;
+}
+#myslider .card-img-overlay {
+  top: 50%;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+#myslider .big-post .card-img-overlay {
+  top: 75%;
+}
+#myslider .card-header {
+  display: inline-block;
+  padding: 3px 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-family: "sans-light", tahoma;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+#myslider a .card-title {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+#myslider .card-subtitle {
+  font-family: "sans-light", tahoma;
+  font-size: 12px;
+  color: #c6c6c6;
+}
+#myslider .card:hover {
+  cursor: pointer;
+}
+#myslider .card img {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+#myslider .card:hover img {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+#myslider .card:hover .card-img-overlay {
+  top: 35%;
+}
+#myslider .big-post .card:hover .card-img-overlay {
+  top: 66%;
+}
+#nav-filter {
+  background-color: #fff;
+}
+#nav-filter nav ul li a {
+  color: #212529;
+  font-family: "sans-light", tahoma;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.9rem;
+  border-bottom: 2px solid transparent;
+}
+#nav-filter nav ul li:hover a {
+  border-bottom: 2px solid #e91e63;
+  color: #e91e63;
+}
+
+#suggested-slider ul li.slik-item div.card {
+  overflow: hidden;
+}
+#suggested-slider ul li.slik-item div.card-img-overlay {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#suggested-slider ul li.slik-item div.card-img-overlay .card-title {
+  position: relative;
+  top: 45%;
+  text-align: center;
+}
+#suggested-slider ul li .card img {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+#suggested-slider ul li.slik-item:hover .card img {
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+}
+#suggested-slider ul li.slik-item:hover div.card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+footer .mysocial ul li {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+footer .mysocial ul li a i {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+footer .mysocial ul li a {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  left: 0;
+}
+footer .mysocial ul li:hover a i {
+  color: white;
+}
+footer .mysocial ul li:hover:nth-child(1) {
+  background-color: #3b5998;
+}
+footer .mysocial ul li:hover:nth-child(2) {
+  background-color: #c13584;
+}
+footer .mysocial ul li:hover:nth-child(3) {
+  background-color: #25d366;
+}
+footer .mysocial ul li:hover:nth-child(4) {
+  background-color: #0088cc;
+}
+footer .mysocial ul li:hover:nth-child(5) {
+  background-color: #333;
+}
+#singel-post .main-post .card {
+  overflow: hidden;
+}
+#singel-post .main-post .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#singel-post .main-post .card-img-overlay .overlay-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>قالب وبلاگ خبری</title>
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-4 d-flex align-items-center">
+        <div class="col-md-4 logo">
+          <a href=""><img src="images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="col-md-7 p-0">
+          <nav>
+            <ul>
+              <li>
+                <p><i class="fas fa-dot-circle"></i>سیاسی</p>
+              </li>
+              <li>
+                <p><i class="fas fa-dot-circle"></i>اقتصادی</p>
+              </li>
+              <li>
+                <p><i class="fas fa-dot-circle"></i>فرهنگی</p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <a href="#" class="btn rounded-circle mymore text-muted"><i class=" fas fa-ellipsis-h"></i></a>
+      </div>
+      <div class="col-md-4 col-sm-4 col-4 d-flex align-items-center">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="دنبال چی میگردی..." aria-label="search"
+            aria-describedby="basic-addon1" />
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-4 d-flex align-items-center justify-content-end">
+        <a href="" class="btn myplus rounded-circle"><i class="fa fa-plus" aria-hidden="true"></i></a>
+        <div class="beforlogin">
+          <a href="" class="btn mybtn">ثبت نام</a>
+          <a href="" class="btn mybtn">ورود</a>
+        </div>
+        <div class="afterlogin d-none">
+          <a href="" class="myaccount"><img src="images/user.png" alt="user" /></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="cleafix"></div>
+  <div class="col-md-12 align-items-center position-absolute p-1 main-megamenu">
+    <div class="col-md-12 bg-white text-dark d-flex rounded">
+      <div class="col-md-3">salam</div>
+      <div class="col-md-3">salam</div>
+      <div class="col-md-3">salam</div>
+      <div class="col-md-3">salam</div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+  <section id="myslider">
+    <div class="row no-gutters p-1">
+      <div class="col-md-6 big-post">
+        <div class="card text-white border-0">
+          <img src="images/posts/1.jpg" class="card-img" alt="" />
+          <div class="card-img-overlay">
+            <div class="card-header">اقتصادی</div>
+            <a href="">
+              <h5 class="card-title pb-2">تست عنوان متن پست</h5>
+            </a>
+            <h6 class="card-subtitle">19 مرداد 1398</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 small-post no-gutters d-flex flex-wrap">
+        <div class="col-md-6">
+          <div class="card text-white border-0">
+            <img src="images/posts/1.jpg" class="card-img" alt="" />
+            <div class="card-img-overlay">
+              <div class="card-header">فرهنگی</div>
+              <a href="">
+                <h5 class="card-title pb-2">تست عنوان متن پست</h5>
+              </a>
+              <h6 class="card-subtitle">19 مرداد 1398</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card text-white border-0">
+            <img src="images/posts/1.jpg" class="card-img" alt="" />
+            <div class="card-img-overlay">
+              <div class="card-header">سیاسی</div>
+              <a href="">
+                <h5 class="card-title pb-2">تست عنوان متن پست</h5>
+              </a>
+              <h6 class="card-subtitle">19 مرداد 1398</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card text-white border-0">
+            <img src="images/posts/1.jpg" class="card-img" alt="" />
+            <div class="card-img-overlay">
+              <div class="card-header">اجتماعی</div>
+              <a href="">
+                <h5 class="card-title pb-2">تست عنوان متن پست</h5>
+              </a>
+              <h6 class="card-subtitle">19 مرداد 1398</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card text-white border-0">
+            <img src="images/posts/1.jpg" class="card-img" alt="" />
+            <div class="card-img-overlay">
+              <div class="card-main">
+                <div class="card-header">تولید</div>
+                <a href="">
+                  <h5 class="card-title pb-2">تست عنوان متن پست</h5>
+                </a>
+                <h6 class="card-subtitle">18 مهر 1398</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="clearfix"></div>
+  <section id="nav-filter">
+    <div class="row no-gutters">
+      <div class="col-md-11">
+        <nav>
+          <ul class="d-flex">
+            <li>
+              <a href="" class="btn active">
+                <p>ویژه ها</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="btn active">
+                <p>جدیدترین ها</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="btn">
+                <p>داغ ترین ها</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="btn">
+                <p>محبوب ترین ها</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="btn">
+                <p>قدیمی ترین ها</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-1">
+        <a href="" class="btn"><i class="fa fa-windows" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </section>
+  <div class="clearfix"></div>
+  <section id="suggested-slider">
+    <div class="row">
+      <div class="col-md-12 pl-1 pr-1">
+        <ul class="myslik-slider mt-2 mb-2">
+          <li class="slik-item rounded pr-1 pl-1">
+            <div class="card text-white">
+              <img src="images/posts/1.jpg" class="card-img" alt="" />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </li>
+          <li class="slik-item pr-1 pl-1">
+            <div class="card text-white">
+              <img src="images/posts/1.jpg" class="card-img" alt="" />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </li>
+          <li class="slik-item pr-1 pl-1">
+            <div class="card text-white">
+              <img src="images/posts/1.jpg" class="card-img" alt="" />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </li>
+          <li class="slik-item pr-1 pl-1">
+            <div class="card text-white">
+              <img src="images/posts/1.jpg" class="card-img" alt="" />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </li>
+          <li class="slik-item pr-1 pl-1">
+            <div class="card text-white">
+              <img src="images/posts/1.jpg" class="card-img" alt="" />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </li>
+          <li class="slik-item pr-1 pl-1">
+            <div class="card text-white">
+              <img src="images/posts/1.jpg" class="card-img" alt="" />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </li>
+          <li class="slik-item pr-1 pl-1">
+            <div class="card text-white">
+              <img src="images/posts/1.jpg" class="card-img" alt="" />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div class="clearfix"></div>
+  <section id="first-ads">
+    <div class="row pr-2 pl-2 mb-2">
+      <div class="col-12 bg-white rounded">
+        <h5 class="text-center pt-4 pb-4">محل تبلیغات شما</h5>
+      </div>
+    </div>
+  </section>
+  <div class="clearfix"></div>
+  <section id="main">
+    <div class="row">
+      <div class="col-md-3 d-flex p-2 flex-column align-content-start">
+        <div class="col-md-12 p-0">
+          <article class="last-post col-12 d-flex flex-column p-0">
+            <div class="title-lastpost text-center font-weight-bold bg-white p-3 rounded">
+              <p><i class="fa fa-bomb"></i>آخرین پست ها</p>
+            </div>
+            <div class="posts-lastpost">
+              <div class="col-12 p-0 mt-1 mb-1">
+                <div class="card p-0 text-right">
+                  <img src="images/posts/1.jpg" class="card-img-top" alt="" />
+                  <div class="card-body">
+                    <a href="">
+                      <h5 class="card-title text-body m-0">
+                        تست عنوان مطلب
+                      </h5>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer d-flex justify-content-center align-content-center align-items-center text-muted">
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-user ml-1"></i>امید مقدسی</small>
+                    </div>
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-clock ml-1"></i>1398/08/12</small>
+                    </div>
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-comment ml-1"></i>0</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 p-0 mt-1 mb-1">
+                <div class="card p-0 text-right">
+                  <img src="images/posts/1.jpg" class="card-img-top" alt="" />
+                  <div class="card-body">
+                    <a href="">
+                      <h5 class="card-title text-body m-0">
+                        تست عنوان مطلب
+                      </h5>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer d-flex justify-content-center align-content-center align-items-center text-muted">
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-user ml-1"></i>امید مقدسی</small>
+                    </div>
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-clock ml-1"></i>1398/08/12</small>
+                    </div>
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-comment ml-1"></i>0</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 p-0 mt-1 mb-1">
+                <div class="card p-0 text-right">
+                  <img src="images/posts/1.jpg" class="card-img-top" alt="" />
+                  <div class="card-body">
+                    <a href="">
+                      <h5 class="card-title text-body m-0">
+                        تست عنوان مطلب
+                      </h5>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer d-flex justify-content-center align-content-center align-items-center text-muted">
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-user ml-1"></i>امید مقدسی</small>
+                    </div>
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-clock ml-1"></i>1398/08/12</small>
+                    </div>
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-comment ml-1"></i>0</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 p-0 mt-1 mb-1">
+                <div class="card p-0 text-right">
+                  <img src="images/posts/1.jpg" class="card-img-top" alt="" />
+                  <div class="card-body">
+                    <a href="">
+                      <h5 class="card-title text-body m-0">
+                        تست عنوان مطلب
+                      </h5>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer d-flex justify-content-center align-content-center align-items-center text-muted">
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-user ml-1"></i>امید مقدسی</small>
+                    </div>
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-clock ml-1"></i>1398/08/12</small>
+                    </div>
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-comment ml-1"></i>0</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 p-0 mt-1 mb-1">
+                <div class="card p-0 text-right">
+                  <img src="images/posts/1.jpg" class="card-img-top" alt="" />
+                  <div class="card-body">
+                    <a href="">
+                      <h5 class="card-title text-body m-0">
+                        تست عنوان مطلب
+                      </h5>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer d-flex justify-content-center align-content-center align-items-center text-muted">
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-user ml-1"></i>امید مقدسی</small>
+                    </div>
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-clock ml-1"></i>1398/08/12</small>
+                    </div>
+                    <div class="col-md-4 p-1 text-center">
+                      <small><i class="fa fa-comment ml-1"></i>0</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="col-md-9 d-flex p-1 flex-wrap align-content-start">
+        <div class="col-md-4 p-1">
+          <div class="card p-0 ml-1 text-right">
+            <img src="images/posts/1.jpg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <a href="">
+                <h5 class="card-title text-body">تست عنوان مطلب</h5>
+              </a>
+              <p class="card-text text-justify">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است.
+              </p>
+            </div>
+            <div class="card-footer d-flex justify-content-center align-content-center align-items-center text-muted">
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-user ml-1"></i>امید مقدسی</small>
+              </div>
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-clock ml-1"></i>1398/08/12</small>
+              </div>
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-comment ml-1"></i>0</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-1">
+          <div class="card p-0 ml-1 text-right">
+            <img src="images/posts/1.jpg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <a href="">
+                <h5 class="card-title text-body">تست عنوان مطلب</h5>
+              </a>
+              <p class="card-text text-justify">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است.
+              </p>
+            </div>
+            <div class="card-footer d-flex justify-content-center align-content-center align-items-center text-muted">
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-user ml-1"></i>امید مقدسی</small>
+              </div>
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-clock ml-1"></i>1398/08/12</small>
+              </div>
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-comment ml-1"></i>0</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-1">
+          <div class="card p-0 ml-1 text-right">
+            <img src="images/posts/1.jpg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <a href="">
+                <h5 class="card-title text-body">تست عنوان مطلب</h5>
+              </a>
+              <p class="card-text text-justify">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است.
+              </p>
+            </div>
+            <div class="card-footer d-flex justify-content-center align-content-center align-items-center text-muted">
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-user ml-1"></i>امید مقدسی</small>
+              </div>
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-clock ml-1"></i>1398/08/12</small>
+              </div>
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-comment ml-1"></i>0</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-1">
+          <div class="card p-0 ml-1 text-right">
+            <img src="images/posts/1.jpg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <a href="">
+                <h5 class="card-title text-body">تست عنوان مطلب</h5>
+              </a>
+              <p class="card-text text-justify">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است.
+              </p>
+            </div>
+            <div class="card-footer d-flex justify-content-center align-content-center align-items-center text-muted">
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-user ml-1"></i>امید مقدسی</small>
+              </div>
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-clock ml-1"></i>1398/08/12</small>
+              </div>
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-comment ml-1"></i>0</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-1">
+          <div class="card p-0 ml-1 text-right">
+            <img src="images/posts/1.jpg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <a href="">
+                <h5 class="card-title text-body">تست عنوان مطلب</h5>
+              </a>
+              <p class="card-text text-justify">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است.
+              </p>
+            </div>
+            <div class="card-footer d-flex justify-content-center align-content-center align-items-center text-muted">
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-user ml-1"></i>امید مقدسی</small>
+              </div>
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-clock ml-1"></i>1398/08/12</small>
+              </div>
+              <div class="col-md-4 p-1 text-center">
+                <small><i class="fa fa-comment ml-1"></i>0</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="clearfix"></div>
+  <section id="last-ads">
+    <div class="row pr-2 pl-2 mb-2">
+      <div class="col-12 bg-white rounded">
+        <h5 class="text-center pt-4 pb-4">محل تبلیغات شما</h5>
+      </div>
+    </div>
+  </section>
+  <div class="clearfix"></div>
+  <footer>
+    <div class="row bg-white">
+      <div class="col-12">
+        <div id="copyright" class="text-center mt-3 mb-3 text-muted">
+          <p>تمامی حقوق محفوظ است برای سایت امید مقدسی 2017</p>
+        </div>
+        <div class="col-12 d-flex justify-content-center mysocial">
+          <ul class="d-flex flex-wrap justify-content-center flex-grow-1">
+            <li class="m-1 text-center rounded">
+              <a href="#" class="text-muted"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="m-1 text-center rounded">
+              <a href="#" class="text-muted"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="m-1 text-center rounded">
+              <a href="#" class="text-muted"><i class="fab fa-whatsapp"></i></a>
+            </li>
+            <li class="m-1 text-center rounded">
+              <a href="#" class="text-muted"><i class="fab fa-telegram-plane"></i></a>
+            </li>
+            <li class="m-1 text-center rounded">
+              <a href="#" class="text-muted"><i class="fab fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12">
+          <div id="designer" class="text-center text-muted">
+            <small>طراحی شده توسط<a href="http://omoghadasi.ir" class="text-dark mr-2">امید مقدسی</a></small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
